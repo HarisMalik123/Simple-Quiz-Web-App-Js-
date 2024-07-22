@@ -1,0 +1,61 @@
+/* Set the background color of the entire page to black */
+body{
+    background-color: black;
+   
+}
+#Back{
+    background-color:green;
+    color:white;
+    height: 30px;
+    border-radius:10px ;
+    width: 100px;
+}
+#Next{
+    background-color:green;
+    color:white;
+    height: 30px;
+    border-radius:10px ;
+    width: 100px;
+}
+
+.animatedButton {
+    width: 150px; /* Fixed width */
+    height: 30px; /* Fixed height */
+    font-size: 12px;
+    margin:  10px;
+    color: white;
+    border-radius: 10px;
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+  }
+  
+  .animatedButton:hover {
+    transform: scale(1.1);
+  }
+.heading{
+    text-align: center;
+    color: greenyellow;
+}
+.container {
+    
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+/* #one{
+    color: greenyellow;
+    
+} */
+
+.center-box {
+    background-color: white;
+    width: 1000px;
+    height: 500px;
+   
+}
